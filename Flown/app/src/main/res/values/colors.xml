@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#039BE5</color>
+<color name="colorPrimaryDark">#782F24</color>
+<color name="colorAccent">#0277BD</color>
+<color name="colorFrame">#EEEEEE</color>
+<color name="colorIcons">#01579B</color>
+<color name="colorNav">#0288D1</color>
+<color name="colorIndigo">#29B6F6</color>
+<color name="colorPaleBlue">#090000</color>
+
+
+
+</resources>

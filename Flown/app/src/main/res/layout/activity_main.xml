@@ -1,0 +1,37 @@
+<com.mxn.soul.flowingdrawer_core.LeftDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                  android:id="@+id/id_drawerlayout"
+                                                  android:layout_width="match_parent"
+                                                  android:layout_height="match_parent"
+                                                  android:clipChildren="false">
+
+    <include
+            layout="@layout/app_bar_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    <!--menu-->
+    <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:clipChildren="false">
+
+        <com.mxn.soul.flowingdrawer_core.FlowingView
+                android:id="@+id/sv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <FrameLayout
+                android:id="@+id/id_container_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="35dp"
+                android:layout_marginEnd="35dp"/>
+
+    </RelativeLayout>
+
+</com.mxn.soul.flowingdrawer_core.LeftDrawerLayout>
+

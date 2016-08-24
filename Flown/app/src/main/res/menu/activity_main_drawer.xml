@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/chat"/>
+        <item
+                android:id="@+id/nav_rooms"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/rooms"/>
+        <item
+            android:id="@+id/nav_filework"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/fileWork"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/About"/>
+    </group>
+
+</menu>

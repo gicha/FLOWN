@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.Dialog">>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Удалить сообщение?"
+        android:id="@+id/delete_dial"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Удалить"
+        android:id="@+id/delok"
+        android:layout_below="@+id/delete_dial"
+        android:layout_alignLeft="@+id/delete_dial"
+        android:layout_alignStart="@+id/delete_dial" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отмена"
+        android:id="@+id/cancel"
+        android:layout_below="@+id/delete_dial"
+        android:layout_alignRight="@+id/delete_dial"
+        android:layout_alignEnd="@+id/delete_dial" />
+</RelativeLayout>
