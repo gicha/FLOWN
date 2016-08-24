@@ -1,2 +1,2 @@
-# flown1
+# FLOWN
 Offline messenger for android
